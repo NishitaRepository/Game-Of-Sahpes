@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans';
+}
+
+#game{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight:normal;
+}
+
+.shape{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#square:hover{
+    background-color: red;
+}
+#circle:hover{
+    background-color: green;
+}
+#diamond:hover{
+    background-color: blue;
+}
+#circle{
+    border-radius: 50%;
+}
+#diamond{
+    rotate: 45deg;
+    margin-top: 50px;
+}
+#diamond h1{
+    rotate: -45deg;
+}
